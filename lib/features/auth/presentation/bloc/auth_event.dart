@@ -7,11 +7,11 @@ class AuthSignUp extends AuthEvent {
   final String name;
   final String email;
   final String password;
-  AuthSignUp(
-    this.name,
-    this.email,
-    this.password,
-  );
+  AuthSignUp({
+    required this.name,
+    required this.email,
+    required this.password,
+  });
 }
 
 class AuthLogin extends AuthEvent {
