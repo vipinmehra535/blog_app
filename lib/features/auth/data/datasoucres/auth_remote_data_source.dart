@@ -16,7 +16,7 @@ abstract interface class AuthRemoteDataSource {
 
 class AuthRemoteDataSourceImpl implements AuthRemoteDataSource {
   final SupabaseClient supabaseClient;
-  AuthRemoteDataSourceImpl({required this.supabaseClient});
+  AuthRemoteDataSourceImpl(this.supabaseClient);
   @override
   Future<String> signUpWithEmailAndPassword({
     required String name,
@@ -44,8 +44,6 @@ class AuthRemoteDataSourceImpl implements AuthRemoteDataSource {
     required String email,
     required String password,
   }) {
-
-    
     // TODO: implement loginWithEmailAndPassword
 
     throw UnimplementedError();
