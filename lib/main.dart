@@ -7,10 +7,13 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+
   await initDependencies();
   runApp(MultiBlocProvider(
     providers: [
-      BlocProvider(create: (context) => serviceLocator<AuthBloc>()),
+      BlocProvider(
+        create: (context) => serviceLocator<AuthBloc>(),
+      ),
     ],
     child: const MyApp(),
   ));
