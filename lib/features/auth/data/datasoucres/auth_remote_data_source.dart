@@ -31,7 +31,7 @@ class AuthRemoteDataSourceImpl implements AuthRemoteDataSource {
       });
 
       if (response.user == null) {
-        throw SeveralExceptions("User is null");
+        throw SeveralExceptions("User is null!");
       }
 
       return UserModel.fromJson(response.user!.toJson());
@@ -44,9 +44,20 @@ class AuthRemoteDataSourceImpl implements AuthRemoteDataSource {
   Future<UserModel> loginWithEmailAndPassword({
     required String email,
     required String password,
-  }) {
-    // TODO: implement loginWithEmailAndPassword
+  }) async {
+    try {
+      final response = await supabaseClient.auth.signInWithPassword(
+        email: email,
+        password: password,
+      );
 
-    throw UnimplementedError();
+      if (response.user == null) {
+        throw SeveralExceptions("User is null!");
+      }
+
+      return UserModel.fromJson(response.user!.toJson());
+    } catch (e) {
+      throw SeveralExceptions(e.toString());
+    }
   }
 }

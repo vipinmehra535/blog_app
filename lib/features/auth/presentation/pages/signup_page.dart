@@ -39,12 +39,11 @@ class _SignUpPageState extends State<SignUpPage> {
         padding: const EdgeInsets.all(15.0),
         child: BlocConsumer<AuthBloc, AuthState>(
           listener: (context, state) {
-            // TODO: implement listener
-          },
-          builder: (context, state) {
             if (state is AuthFailure) {
               showSnackbar(context, state.message);
             }
+          },
+          builder: (context, state) {
             if (state is AuthLoading) {
               return const Center(
                 child: Loader(),
