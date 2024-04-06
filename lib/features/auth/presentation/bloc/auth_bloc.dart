@@ -17,7 +17,7 @@ class AuthBloc extends Bloc<AuthEvent, AuthState> {
   }
 
   FutureOr<void> authSignUp(AuthSignUp event, Emitter<AuthState> emit) async {
-    // emit(AuthLoading());
+    emit(AuthLoading());
     final result = await _userSignUp(UserSignParam(
       name: event.name,
       email: event.email,
