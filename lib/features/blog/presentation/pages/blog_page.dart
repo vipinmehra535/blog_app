@@ -1,6 +1,8 @@
 import 'package:blog_app/core/common/widget/loader.dart';
+import 'package:blog_app/core/theme/app_pallete.dart';
 import 'package:blog_app/features/blog/presentation/bloc/blog_bloc.dart';
 import 'package:blog_app/features/blog/presentation/pages/add_blog_new_page.dart';
+import 'package:blog_app/features/blog/presentation/widget/blog_card.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -52,12 +54,13 @@ class _BlogPageState extends State<BlogPage> {
             return ListView.builder(
               itemCount: state.blogs.length,
               itemBuilder: (context, index) {
-                return Card(
-                  child: ListTile(
-                    title: Text(state.blogs[index].title),
-                    subtitle: Text(state.blogs[index].content),
-                    trailing: Image.network(state.blogs[index].imageUrl),
-                  ),
+                return BlogCard(
+                  blog: state.blogs[index],
+                  color: index % 3 == 0
+                      ? AppPallete.gradient1
+                      : index % 3 == 1
+                          ? AppPallete.gradient2
+                          : AppPallete.gradient3,
                 );
               },
             );
