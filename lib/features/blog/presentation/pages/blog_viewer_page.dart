@@ -19,7 +19,7 @@ class BlogViewerPage extends StatelessWidget {
       body: Column(
         children: [
           Text(
-            "blog.content",
+            blog.title,
             style: const TextStyle(
               fontSize: 20,
             ),
