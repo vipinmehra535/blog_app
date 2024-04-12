@@ -1,16 +1,23 @@
 🎉 Introducing Blog App 🎉
 
-Blog App is a simple Flutter project that allows users to create and view 📄 blog posts.
-It's perfect for anyone who loves to write! I used Supabase as a backend and for local storage uses Hive. 
+A simple blog app where you can sign up, sign in, create posts  your posts.
+
+## 📚 Getting started 📚
+
+To get started, clone the repository and open the `android/app/src/main/java/com/yourcompany/blogapp` directory in your IDE.
+
+```bash
+git clone https://github.com/fluttercodelabs/blog_app.git
+cd blog_app/android
+```
 
 ## 🌟 Features 🌟
 
 The app includes the following features:
 
-📝 Users can create a new blog post by providing a title, content, and image.
-📝 Users can view a list of all blog posts and tap on any post to view its details.
-🔒 Users can sign in and sign up with email and password.
-🔒 Users can edit and delete their own posts.
+• 📄 Users can create a new blog post by providing a title, content, and image.
+• 📋 Users can view a list of all blog posts and tap on any post to view its details.
+• 🔒 Users can sign in and sign up with email and password.
 
 ## 💻 Using the app 💻
 
