@@ -14,9 +14,9 @@ git clone https://github.com/fluttercodelabs/blog_app.git
 
 The app includes the following features:
 
-• 📄 Users can create a new blog post by providing a title, content, and image.
-• 📋 Users can view a list of all blog posts and tap on any post to view its details.
-• 🔒 Users can sign in and sign up with email and password.
+1. 📄 Users can create a new blog post by providing a title, content, and image.
+2. 📋 Users can view a list of all blog posts and tap on any post to view its details.
+3. 🔒 Users can sign in and sign up with email and password.
 
 ## 💻 Using the app 💻
 
