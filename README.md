@@ -7,7 +7,7 @@ A simple blog app where you can sign up, sign in, create posts  your posts.
 To get started, clone the repository in your IDE.
 
 ```bash
-git clone https://github.com/fluttercodelabs/blog_app.git
+git clone https://github.com/vipinmehra535/blog_app.git
 ```
 
 ## 🌟 Features 🌟
