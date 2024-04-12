@@ -4,11 +4,10 @@ A simple blog app where you can sign up, sign in, create posts  your posts.
 
 ## 📚 Getting started 📚
 
-To get started, clone the repository and open the `android/app/src/main/java/com/yourcompany/blogapp` directory in your IDE.
+To get started, clone the repository in your IDE.
 
 ```bash
 git clone https://github.com/fluttercodelabs/blog_app.git
-cd blog_app/android
 ```
 
 ## 🌟 Features 🌟
@@ -30,6 +29,14 @@ To use the app, follow these steps:
 5. Enter a title, content, and image for the post 📝
 6. Tap the "Save" button to save the post 💾
 7. Tap on any post in the list to view its details 📄
+
+## 💻 Application Screenshots
+
+![Screenshot_1712895659](https://github.com/vipinmehra535/blog_app/assets/88340224/64333999-955d-4cef-9e68-19ddb3c1a30e)
+![Screenshot_1712895648](https://github.com/vipinmehra535/blog_app/assets/88340224/e3d28569-9f36-4531-a6e3-5d08eb03c5d6)
+![Screenshot_1712895607](https://github.com/vipinmehra535/blog_app/assets/88340224/204c0732-93b8-4b4e-92d1-1c8cf385a7a7)
+![Screenshot_1712895598](https://github.com/vipinmehra535/blog_app/assets/88340224/5677d3bf-0374-4b93-bfba-ee6e3f8ac541)
+
 
 Enjoy your new blogging experience! 💖
 
