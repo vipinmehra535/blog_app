@@ -6,9 +6,9 @@ Blog App is a simple Flutter project that allows users to create and view 📄 b
 
 The app includes the following features:
 
-📝 Users can create a new blog post by providing a title, content, and image. 🖼️
-📝 Users can view a list of all blog posts and tap on any post to view its details. 📄
-📝 Users can tap on the edit button to edit a post or delete it if desired. ✏️
+📝 Users can create a new blog post by providing a title, content, and image.
+📝 Users can view a list of all blog posts and tap on any post to view its details.
+📝 Users can tap on the edit button to edit a post or delete it if desired.
 
 ## 💻 Using the app 💻
 
