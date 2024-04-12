@@ -1,6 +1,6 @@
 🎉 Introducing Blog App 🎉
 
-A simple blog app where you can sign up, sign in, create posts  your posts.
+A simple blog app where you can sign up, sign in, create posts your posts.
 
 ## 📚 Getting started 📚
 
@@ -33,9 +33,23 @@ To use the app, follow these steps:
 ## 💻 Application Screenshots
 
 <img src="https://github.com/vipinmehra535/blog_app/assets/88340224/64333999-955d-4cef-9e68-19ddb3c1a30e" width="250" />
-<img src="https://github.com/vipinmehra535/blog_app/assets/88340224/e3d28569-9f36-4531-a6e3-5d08eb03c5d6" width="250" />
-<img src="https://github.com/vipinmehra535/blog_app/assets/88340224/204c0732-93b8-4b4e-92d1-1c8cf385a7a7" width="250" />
-<img src="https://github.com/vipinmehra535/blog_app/assets/88340224/5677d3bf-0374-4b93-bfba-ee6e3f8ac541" width="250" />
+<DottedBorder
+  customColor="#E5E5E5"
+  borderType="RRECT"
+  radius="10">
+  <img src="https://github.com/vipinmehra535/blog_app/assets/88340224/e3d28569-9f36-4531-a6e3-5d08eb03c5d6" width="250" />
+</DottedBorder>
+<DottedBorder
+  customColor="#E5E5E5"
+  borderType="RRECT"
+  radius="10">
+  <img src="https://github.com/vipinmehra535/blog_app/assets/88340224/204c0732-93b8-4b4e-92d1-1c8cf385a7a7" width="250" />
+</DottedBorder>
+<DottedBorder
+  customColor="#E5E5E5"
+  borderType="RRECT"
+  radius="10">
+  <img src="https://github.com/vipinmehra535/blog_app/assets/88340224/5677d3bf-0374-4b93-bfba-ee6e3f8ac541" width="250" />
+</DottedBorder>
 
 Enjoy your new blogging experience! 💖
-
